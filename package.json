@@ -1,0 +1,43 @@
+{
+  "name": "habit-tracker",
+  "version": "1.0.0",
+  "description": "Habit tracker app",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node ./index.js",
+    "lint": "eslint . --ext .js,.jsx",
+    "test": "test"
+  },
+  "pre-commit": [
+    "lint"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tuttiq/habit-tracker.git"
+  },
+  "keywords": [
+    "habit",
+    "tracker"
+  ],
+  "author": "tuttiq",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tuttiq/habit-tracker/issues"
+  },
+  "homepage": "https://github.com/tuttiq/habit-tracker#readme",
+  "dependencies": {
+    "babel-cli": "6.26.0",
+    "babel-core": "6.26.3",
+    "babel-preset-es2015": "6.24.1",
+    "babel-preset-stage-0": "6.24.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "8.2.5",
+    "eslint": "5.0.1",
+    "eslint-config-prettier": "2.9.0",
+    "eslint-plugin-prettier": "2.6.2",
+    "eslint-plugin-react": "7.10.0",
+    "pre-commit": "1.2.2",
+    "prettier": "1.13.7"
+  }
+}
