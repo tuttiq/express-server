@@ -1,7 +1,7 @@
-# Habit tracker
+# Express.js server
 
-A simple habit tracker app
+Studies on how to implement an Express server
 
-### Setup
+### Setup (development)
 
-Clone repo and run `npm install` and `npm start`.
+Clone repo and run `npm install` and `npm run dev`.
